@@ -20,6 +20,9 @@
 
 .stat-list {
     display: flex;
+    border: 2px solid #186273;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .item {
@@ -27,6 +30,10 @@
     padding: 20px;
     text-align: center;
     overflow: hidden;
+}
+
+.item:not(:last-child) {
+    border-right: 2px solid #186273;
 }
 
 .label {

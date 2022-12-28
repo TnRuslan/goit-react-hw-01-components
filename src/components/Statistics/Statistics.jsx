@@ -2,8 +2,6 @@ import PropTypes from 'prop-types'
 import styles from './Statistics.module.scss'
 import { StatisticItem } from "./StatisticsItem"
 
-console.log(styles)
-
 export const Statistic = ({ title, datas }) => {
     return (
     <section className={styles["statistics"]}>

@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 import styles from './Profile.module.scss'
 
-console.log(styles)
-
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div className={styles["profile"]}>

@@ -5,12 +5,13 @@
     width: 400px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 40px;
 }
 
 .friends__item {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 
     padding: 10px;
 
@@ -33,6 +34,22 @@
 .name {
     font-size: 20px;
     font-weight: 600;
+}
+
+.status {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.online {
+    background-color: green;    
+}
+
+.offline {
+    background-color: red;
 }
 
 
